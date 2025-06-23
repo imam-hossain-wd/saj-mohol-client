@@ -1,6 +1,7 @@
 import { Inter, Playfair_Display } from 'next/font/google';
 import "./globals.css";
 import { Navbar } from '@/components/shared/Navbar/Navbar';
+import Footer from '@/components/shared/Footer/Footer';
 
 
 
@@ -23,8 +24,9 @@ export default function RootLayout({ children }) {
         className={`${playfair.variable} ${playfair.variable} antialiased`}
       >
         <div>
-<Navbar />
-        {children}
+          <Navbar />
+          {children}
+          <Footer />
         </div>
       </body>
     </html>
