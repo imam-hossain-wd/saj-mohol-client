@@ -3,6 +3,44 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+/* Custom pagination styles */
+.custom-pagination {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.custom-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d1d5db;
+  opacity: 0.8;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-bullet-active {
+  background-color: #FF66BF;
+  width: 30px;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+/* Swiper overrides */
+.swiper-pagination-bullet {
+  background: #d1d5db;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FF66BF;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
