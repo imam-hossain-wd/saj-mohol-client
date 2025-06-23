@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 export const ReusableDrawer = ({
   icon,
-  side = "right",
+  side,
   children,
   className,
 }) => {

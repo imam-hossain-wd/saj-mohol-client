@@ -99,15 +99,15 @@ export function ReusableCarousel({
 // </ReusableCarousel>
 
 // ********************************
-//    <ReusableCarousel >
-//       <div className="h-64 bg-gray-100 flex items-center justify-center">
-//         <h3>Slide 1</h3>
-//       </div>
-//       <div className="h-64 bg-gray-200 flex items-center justify-center">
-//         <h3>Slide 2</h3>
-//       </div>
-//       <div className="h-64 bg-gray-300 flex items-center justify-center">
-//         <h3>Slide 3</h3>
-//       </div>
+  //  <ReusableCarousel >
+  //     <div className="h-64 bg-gray-100 flex items-center justify-center">
+  //       <h3>Slide 1</h3>
+  //     </div>
+  //     <div className="h-64 bg-gray-200 flex items-center justify-center">
+  //       <h3>Slide 2</h3>
+  //     </div>
+  //     <div className="h-64 bg-gray-300 flex items-center justify-center">
+  //       <h3>Slide 3</h3>
+  //     </div>
 
-//     </ReusableCarousel>
+  //   </ReusableCarousel>
