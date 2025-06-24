@@ -74,11 +74,11 @@ const Footer = () => {
           </div>
 
           {/* Payments / Trust icons */}
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <Image src="/icons/cod.svg" alt="Cash on Delivery" width={40} height={40} />
             <Image src="/icons/bkash.svg" alt="Bkash" width={40} height={40} />
             <Image src="/icons/nagad.svg" alt="Nagad" width={40} height={40} />
-          </div>
+          </div> */}
 
           {/* Copyright */}
           <p className="text-sm text-gray-500">&copy; 2025 Saj Mohol. All rights reserved.</p>
