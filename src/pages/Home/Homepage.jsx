@@ -4,12 +4,12 @@ import { PopularProducts } from '@/components/view/Home/PopularProducts/PopularP
 
 
 export default function Homepage() {
-    
+
     return (
         <>
             <HomeBanner />
-             <CategorySection />
-             <PopularProducts />
+            <CategorySection />
+            <PopularProducts />
         </>
     )
 }

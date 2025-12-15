@@ -4,6 +4,58 @@
 @custom-variant dark (&:is(.dark *));
 
 
+
+
+/* Add to your global CSS */
+@layer utilities {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+/* Hide scrollbar for filter chips */
+.filter-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+
+/**********************  toast start ***********************/
+/* globals.css */
+@keyframes progress {
+  from { width: 100%; }
+  to { width: 0%; }
+}
+
+.animate-progress {
+  animation-name: progress;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+/**********************  toast end ***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
 /********************** Popular Products ************************/
 
 Product card hover effects

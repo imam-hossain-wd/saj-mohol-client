@@ -1,9 +1,14 @@
-
 export const products = [
     {
         "id": 1,
         "name": "Cosrx AHA BHA Clarifying Treatment Toner",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1735242291156",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1735242291156",
+            "https://example.com/product1-alt1.jpg",
+            "https://example.com/product1-alt2.jpg",
+            "https://example.com/product1-alt3.jpg"
+        ],
         "code": "KSB-P0141",
         "brand": "Cosrx",
         "brandLink": "https://koreanshopbd.com/brand/cosrx",
@@ -15,12 +20,28 @@ export const products = [
         "price": 999,
         "originalPrice": 1100,
         "discount": 9,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Exfoliates dead skin cells and unclogs pores",
+            "Balances skin pH levels",
+            "Contains natural AHA from apples and BHA from willow bark",
+            "Soothes irritated skin with natural ingredients",
+            "Improves skin texture and tone"
+        ],
+        "ingredients": "Apple Fruit Water, Willow Bark Water, Glycolic Acid, Lactic Acid, Salicylic Acid",
+        "howToUse": "Apply to cleansed face with a cotton pad. Use morning and night.",
+        "rating": 4.5
     },
     {
         "id": 2,
         "name": "Cosrx Low Ph Good Morning Gel Cleanser",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1734721435377",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1734721435377",
+            "https://example.com/product2-alt1.jpg",
+            "https://example.com/product2-alt2.jpg"
+        ],
         "code": "KSB-P0117",
         "brand": "Cosrx",
         "brandLink": "https://koreanshopbd.com/brand/cosrx",
@@ -32,12 +53,26 @@ export const products = [
         "price": 999,
         "originalPrice": 1100,
         "discount": 9,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Gentle low pH formula (pH 5.0-6.0) that respects skin's natural barrier",
+            "Contains tea tree oil and BHA to cleanse pores and prevent breakouts",
+            "Creates a soft, smooth lather that effectively removes impurities",
+            "Suitable for all skin types, especially oily and acne-prone skin"
+        ],
+        "ingredients": "Tea Tree Oil, Betaine Salicylate, Cocamidopropyl Betaine",
+        "howToUse": "Apply to wet face, massage gently, then rinse thoroughly. Use morning and/or night.",
+        "rating": 4.7
     },
     {
         "id": 3,
         "name": "Cosrx Advanced Snail 92 All In One Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1734550852962",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1734550852962",
+            "https://example.com/product3-alt1.jpg"
+        ],
         "code": "KSB-P0112",
         "brand": "Cosrx",
         "brandLink": "https://koreanshopbd.com/brand/cosrx",
@@ -49,12 +84,27 @@ export const products = [
         "price": 1700,
         "originalPrice": 1900,
         "discount": 11,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Contains 92% snail mucin filtrate for intense hydration",
+            "Repairs damaged skin and improves skin elasticity",
+            "Lightweight gel-cream texture absorbs quickly",
+            "Soothes irritated skin and reduces redness",
+            "Great for all skin types including sensitive skin"
+        ],
+        "ingredients": "Snail Secretion Filtrate, Betaine, Panthenol, Sodium Hyaluronate",
+        "howToUse": "Apply an appropriate amount to face after toner and serum. Use morning and night.",
+        "rating": 4.8
     },
     {
         "id": 4,
         "name": "Cosrx Hyaluronic Acid Intensive Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1734721843118",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1734721843118",
+            "https://example.com/product4-alt1.jpg"
+        ],
         "code": "KSB-P0119",
         "brand": "Cosrx",
         "brandLink": "https://koreanshopbd.com/brand/cosrx",
@@ -64,12 +114,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/moisturizer",
         "status": "In Stock",
         "price": 1700,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Contains hyaluronic acid for deep hydration",
+            "Strengthens skin moisture barrier",
+            "Lightweight yet intensely moisturizing formula",
+            "Suitable for dry and dehydrated skin types",
+            "Non-greasy finish"
+        ],
+        "ingredients": "Hyaluronic Acid, Ceramide NP, Allantoin, Panthenol",
+        "howToUse": "Apply to face after serum. Can be used morning and night.",
+        "rating": 4.6
     },
     {
         "id": 5,
         "name": "COSRX The Niacinamide 15 Serum",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1741983020130",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1741983020130",
+            "https://example.com/product5-alt1.jpg"
+        ],
         "code": "KSB-P0584",
         "brand": "Cosrx",
         "brandLink": "https://koreanshopbd.com/brand/cosrx",
@@ -78,12 +143,28 @@ export const products = [
         "category": "Serum",
         "categoryLink": "https://koreanshopbd.com/category/serum",
         "status": "In Stock",
-        "quantity": 1
+        "price": 1550,
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "15% niacinamide concentration for brightening and pore care",
+            "Reduces appearance of dark spots and hyperpigmentation",
+            "Regulates sebum production for balanced skin",
+            "Minimizes appearance of pores",
+            "Lightweight, fast-absorbing texture"
+        ],
+        "ingredients": "Niacinamide, Ascorbic Acid, Adenosine, Allantoin",
+        "howToUse": "Apply 2-3 drops to face after toner, before moisturizer. Use once daily.",
+        "rating": 4.7
     },
     {
         "id": 6,
         "name": "SOME BY MI AHA BHA PHA 30 Days Miracle Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1742801595196",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1742801595196",
+            "https://example.com/product6-alt1.jpg"
+        ],
         "code": "KSB-P0178",
         "brand": "Some By Mi",
         "brandLink": "https://koreanshopbd.com/brand/some-by-mi",
@@ -93,12 +174,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/moisturizer",
         "status": "In Stock",
         "price": 1900,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Contains AHA, BHA and PHA for gentle exfoliation",
+            "Improves skin texture and reduces acne marks",
+            "Tea tree extract soothes irritated skin",
+            "Lightweight gel-cream texture",
+            "Suitable for acne-prone and sensitive skin"
+        ],
+        "ingredients": "Tea Tree Leaf Water, AHA, BHA, PHA, Niacinamide",
+        "howToUse": "Apply appropriate amount to face after serum. Use morning and night.",
+        "rating": 4.5
     },
     {
         "id": 7,
         "name": "SOME BY MI AHA BHA PHA 30 Days Miracle Starter Kit",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1742801703150",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1742801703150",
+            "https://example.com/product7-alt1.jpg"
+        ],
         "code": "KSB-P0179",
         "brand": "Some By Mi",
         "brandLink": "https://koreanshopbd.com/brand/some-by-mi",
@@ -108,12 +204,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/kit",
         "status": "In Stock",
         "price": 1900,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Complete 4-step routine for acne-prone skin",
+            "Includes cleanser, toner, serum and cream",
+            "Formulated with AHA, BHA and PHA",
+            "Tea tree extract calms irritation",
+            "Visibly improves skin in 30 days"
+        ],
+        "ingredients": "Tea Tree Extract, AHA, BHA, PHA, Centella Asiatica",
+        "howToUse": "Use products in order: cleanser → toner → serum → cream. Use morning and night.",
+        "rating": 4.6
     },
     {
         "id": 8,
         "name": "SOME BY MI AHA BHA PHA Super Miracle Spot All Kill Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1742800565586",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1742800565586",
+            "https://example.com/product8-alt1.jpg"
+        ],
         "code": "KSB-P0172",
         "brand": "Some By Mi",
         "brandLink": "https://koreanshopbd.com/brand/some-by-mi",
@@ -125,12 +236,27 @@ export const products = [
         "price": 1350,
         "originalPrice": 1500,
         "discount": 10,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Targeted treatment for acne spots",
+            "Contains tea tree extract and salicylic acid",
+            "Reduces redness and inflammation",
+            "Lightweight formula that absorbs quickly",
+            "Can be used as spot treatment or all-over cream"
+        ],
+        "ingredients": "Tea Tree Leaf Extract, Salicylic Acid, Centella Asiatica Extract",
+        "howToUse": "Apply small amount to affected areas. Can be used morning and night.",
+        "rating": 4.4
     },
     {
         "id": 9,
         "name": "SOME BY MI AHA BHA PHA 30 Days Miracle Toner",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1742801486507",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1742801486507",
+            "https://example.com/product9-alt1.jpg"
+        ],
         "code": "KSB-P0177",
         "brand": "Some By Mi",
         "brandLink": "https://koreanshopbd.com/brand/some-by-mi",
@@ -140,12 +266,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/toner",
         "status": "In Stock",
         "price": 1900,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Exfoliating toner with AHA, BHA and PHA",
+            "Contains 10,000ppm of tea tree leaf water",
+            "Gently removes dead skin cells",
+            "Controls excess sebum production",
+            "Soothes irritated skin"
+        ],
+        "ingredients": "Tea Tree Leaf Water, AHA, BHA, PHA, Willow Bark Extract",
+        "howToUse": "Apply to cleansed face with cotton pad. Use morning and night.",
+        "rating": 4.7
     },
     {
         "id": 10,
         "name": "SOME BY MI Snail Truecica Miracle Repair Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1742802234607",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1742802234607",
+            "https://example.com/product10-alt1.jpg"
+        ],
         "code": "KSB-P0193",
         "brand": "Some By Mi",
         "brandLink": "https://koreanshopbd.com/brand/some-by-mi",
@@ -155,12 +296,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/moisturizer",
         "status": "In Stock",
         "price": 1900,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Contains snail secretion filtrate and truecica",
+            "Repairs damaged skin barrier",
+            "Soothes irritated and sensitive skin",
+            "Improves skin elasticity and hydration",
+            "Lightweight gel-cream texture"
+        ],
+        "ingredients": "Snail Secretion Filtrate, Centella Asiatica Extract, Madecassoside",
+        "howToUse": "Apply appropriate amount to face after serum. Use morning and night.",
+        "rating": 4.6
     },
     {
         "id": 11,
         "name": "SOME BY MI Snail Truecica Miracle Repair Toner",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1742802324527",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1742802324527",
+            "https://example.com/product11-alt1.jpg"
+        ],
         "code": "KSB-P0194",
         "brand": "Some By Mi",
         "brandLink": "https://koreanshopbd.com/brand/some-by-mi",
@@ -170,12 +326,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/toner",
         "status": "In Stock",
         "price": 1700,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Hydrating toner with snail mucin and truecica",
+            "Strengthens skin barrier function",
+            "Calms redness and irritation",
+            "Prepares skin for better absorption of following products",
+            "Suitable for sensitive skin types"
+        ],
+        "ingredients": "Snail Secretion Filtrate, Centella Asiatica Extract, Panthenol",
+        "howToUse": "Apply to cleansed face with hands or cotton pad. Use morning and night.",
+        "rating": 4.5
     },
     {
         "id": 12,
         "name": "Beauty of Joseon Relief Sun Aqua-Fresh Rice + B5 SPF50+ PA++++",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1740554048518",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1740554048518",
+            "https://example.com/product12-alt1.jpg"
+        ],
         "code": "KSB-P0500",
         "brand": "Beauty of Joseon",
         "brandLink": "https://koreanshopbd.com/brand/beauty-of-joseon",
@@ -187,12 +358,27 @@ export const products = [
         "price": 1550,
         "originalPrice": 1700,
         "discount": 9,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Lightweight, non-greasy sunscreen",
+            "Contains rice extract and panthenol for hydration",
+            "Provides high protection against UVA/UVB rays",
+            "Leaves no white cast",
+            "Suitable for sensitive skin"
+        ],
+        "ingredients": "Rice Extract, Panthenol, Propolis Extract, Niacinamide",
+        "howToUse": "Apply as the last step of skincare routine. Reapply every 2-3 hours when exposed to sun.",
+        "rating": 4.8
     },
     {
         "id": 13,
         "name": "Beauty of Joseon Relief Sun Rice + Probiotics Spf 50+ Pa++++",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736542227862",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736542227862",
+            "https://example.com/product13-alt1.jpg"
+        ],
         "code": "KSB-P0292",
         "brand": "Beauty of Joseon",
         "brandLink": "https://koreanshopbd.com/brand/beauty-of-joseon",
@@ -204,12 +390,27 @@ export const products = [
         "price": 1550,
         "originalPrice": 1700,
         "discount": 9,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Probiotic-enriched sunscreen formula",
+            "Contains rice bran extract for brightening",
+            "High protection against UVA/UVB rays",
+            "Moisturizing yet lightweight texture",
+            "No white cast, suitable for all skin tones"
+        ],
+        "ingredients": "Rice Bran Extract, Probiotics, Niacinamide, Panthenol",
+        "howToUse": "Apply generously as last step of skincare. Reapply every 2 hours when outdoors.",
+        "rating": 4.9
     },
     {
         "id": 14,
         "name": "Beauty of Joseon Dynasty Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736538024981",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736538024981",
+            "https://example.com/product14-alt1.jpg"
+        ],
         "code": "KSB-P0279",
         "brand": "Beauty of Joseon",
         "brandLink": "https://koreanshopbd.com/brand/beauty-of-joseon",
@@ -219,12 +420,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/moisturizer",
         "status": "In Stock",
         "price": 2100,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Traditional Korean herbal formula",
+            "Contains ginseng and orchid extracts",
+            "Nourishes and revitalizes skin",
+            "Improves skin elasticity and firmness",
+            "Rich yet non-greasy texture"
+        ],
+        "ingredients": "Ginseng Root Extract, Orchid Extract, Niacinamide, Adenosine",
+        "howToUse": "Apply appropriate amount to face after serum. Use morning and/or night.",
+        "rating": 4.7
     },
     {
         "id": 15,
         "name": "Beauty of Joseon Centella Asiatica Calming Mask",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1748525708067",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1748525708067",
+            "https://example.com/product15-alt1.jpg"
+        ],
         "code": "KSB-P0730",
         "brand": "Beauty of Joseon",
         "brandLink": "https://koreanshopbd.com/brand/beauty-of-joseon",
@@ -234,12 +450,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/sheet-mask",
         "status": "In Stock",
         "price": 300,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Soothing sheet mask with centella asiatica",
+            "Calms irritated and sensitive skin",
+            "Reduces redness and inflammation",
+            "Provides instant hydration",
+            "Soft cotton sheet for comfortable wear"
+        ],
+        "ingredients": "Centella Asiatica Extract, Panthenol, Allantoin, Sodium Hyaluronate",
+        "howToUse": "Apply to cleansed face for 15-20 minutes. Use 1-2 times weekly.",
+        "rating": 4.5
     },
     {
         "id": 16,
         "name": "Beauty of Joseon Red Bean Refreshing Pore Mask",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736541928328",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736541928328",
+            "https://example.com/product16-alt1.jpg"
+        ],
         "code": "KSB-P0290",
         "brand": "Beauty of Joseon",
         "brandLink": "https://koreanshopbd.com/brand/beauty-of-joseon",
@@ -249,12 +480,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/wash-off-mask",
         "status": "In Stock",
         "price": 1900,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Contains red bean powder for gentle exfoliation",
+            "Absorbs excess sebum and refines pores",
+            "Soothes skin with traditional herbal ingredients",
+            "Leaves skin smooth and refreshed",
+            "Vegan and cruelty-free formula"
+        ],
+        "ingredients": "Red Bean Powder, Rice Bran Extract, Licorice Root Extract",
+        "howToUse": "Apply to clean face, leave for 10-15 minutes, then rinse with warm water. Use 1-2 times weekly.",
+        "rating": 4.4
     },
     {
         "id": 17,
         "name": "AXIS-Y Dark Spot Correcting Glow Serum",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1734206335548",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1734206335548",
+            "https://example.com/product17-alt1.jpg"
+        ],
         "code": "KSB-P0082",
         "brand": "Axis-Y",
         "brandLink": "https://koreanshopbd.com/brand/axis-y",
@@ -266,12 +512,27 @@ export const products = [
         "price": 1550,
         "originalPrice": 1900,
         "discount": 18,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Targets dark spots and hyperpigmentation",
+            "Contains 5% niacinamide for brightening",
+            "Improves skin tone and texture",
+            "Lightweight, fast-absorbing formula",
+            "Suitable for all skin types"
+        ],
+        "ingredients": "Niacinamide, Ascorbic Acid, Adenosine, Licorice Root Extract",
+        "howToUse": "Apply 2-3 drops to face after toner, before moisturizer. Use morning and night.",
+        "rating": 4.6
     },
     {
         "id": 18,
         "name": "AXIS-Y Dark Spot Correcting Glow Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1740555579380",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1740555579380",
+            "https://example.com/product18-alt1.jpg"
+        ],
         "code": "KSB-P0505",
         "brand": "Axis-Y",
         "brandLink": "https://koreanshopbd.com/brand/axis-y",
@@ -283,12 +544,27 @@ export const products = [
         "price": 1550,
         "originalPrice": 1900,
         "discount": 18,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Brightening moisturizer with niacinamide",
+            "Helps fade dark spots and even skin tone",
+            "Provides hydration without greasiness",
+            "Contains soothing ingredients for sensitive skin",
+            "Lightweight gel-cream texture"
+        ],
+        "ingredients": "Niacinamide, Adenosine, Panthenol, Madecassoside",
+        "howToUse": "Apply appropriate amount to face after serum. Use morning and night.",
+        "rating": 4.5
     },
     {
         "id": 19,
         "name": "AXIS-Y Dark Spot Correcting Glow Serum 5ml",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1738057995879",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1738057995879",
+            "https://example.com/product19-alt1.jpg"
+        ],
         "code": "KSB-P0367",
         "brand": "Axis-Y",
         "brandLink": "https://koreanshopbd.com/brand/axis-y",
@@ -300,12 +576,27 @@ export const products = [
         "price": 350,
         "originalPrice": 500,
         "discount": 30,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Mini version of the popular dark spot serum",
+            "Contains 5% niacinamide for brightening",
+            "Travel-friendly size",
+            "Great for testing the product",
+            "Same formula as full-size version"
+        ],
+        "ingredients": "Niacinamide, Ascorbic Acid, Adenosine, Licorice Root Extract",
+        "howToUse": "Apply small amount to face after toner, before moisturizer.",
+        "rating": 4.5
     },
     {
         "id": 20,
         "name": "Axis-Y Sunday Morning Refreshing Cleansing Foam",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1748525479179",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1748525479179",
+            "https://example.com/product20-alt1.jpg"
+        ],
         "code": "KSB-P0729",
         "brand": "Axis-Y",
         "brandLink": "https://koreanshopbd.com/brand/axis-y",
@@ -315,12 +606,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/cleanser",
         "status": "In Stock",
         "price": 1500,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Gentle foaming cleanser",
+            "Maintains skin's natural pH balance",
+            "Contains soothing botanical extracts",
+            "Removes impurities without stripping skin",
+            "Leaves skin clean and refreshed"
+        ],
+        "ingredients": "Tea Tree Leaf Water, Panthenol, Allantoin, Sodium Hyaluronate",
+        "howToUse": "Apply to wet face, massage gently, then rinse thoroughly. Use morning and/or night.",
+        "rating": 4.4
     },
     {
         "id": 21,
         "name": "AXIS-Y Mini Glow Set",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1738349642042",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1738349642042",
+            "https://example.com/product21-alt1.jpg"
+        ],
         "code": "KSB-P0463",
         "brand": "Axis-Y",
         "brandLink": "https://koreanshopbd.com/brand/axis-y",
@@ -330,12 +636,27 @@ export const products = [
         "categoryLink": "https://koreanshopbd.com/category/kit",
         "status": "In Stock",
         "price": 1100,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Travel-sized skincare set",
+            "Includes cleanser, toner, serum and cream",
+            "Formulated for brightening and hydration",
+            "Great for trying multiple products",
+            "Perfect for travel or testing the brand"
+        ],
+        "ingredients": "Niacinamide, Panthenol, Tea Tree Extract, Sodium Hyaluronate",
+        "howToUse": "Use products in order: cleanser → toner → serum → cream.",
+        "rating": 4.5
     },
     {
         "id": 22,
         "name": "CARENEL Aqua Night Mask",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1741287363883",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1741287363883",
+            "https://example.com/product22-alt1.jpg"
+        ],
         "code": "KSB-P0530",
         "brand": "Care:Nel",
         "brandLink": "https://koreanshopbd.com/brand/carenel",
@@ -347,12 +668,27 @@ export const products = [
         "price": 600,
         "originalPrice": 700,
         "discount": 14,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Hydrating overnight mask",
+            "Contains hyaluronic acid for intense moisture",
+            "Lightweight gel texture",
+            "Absorbs quickly without stickiness",
+            "Wake up to plump, hydrated skin"
+        ],
+        "ingredients": "Hyaluronic Acid, Panthenol, Allantoin, Sodium Hyaluronate",
+        "howToUse": "Apply as last step of nighttime routine. Use 2-3 times weekly.",
+        "rating": 4.3
     },
     {
         "id": 23,
         "name": "Care:Nel White Renew Soft Cleansing Foam",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1741288272234",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1741288272234",
+            "https://example.com/product23-alt1.jpg"
+        ],
         "code": "KSB-P0532",
         "brand": "Care:Nel",
         "brandLink": "https://koreanshopbd.com/brand/carenel",
@@ -364,12 +700,27 @@ export const products = [
         "price": 1100,
         "originalPrice": 1300,
         "discount": 15,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Brightening foaming cleanser",
+            "Gently removes impurities",
+            "Contains niacinamide for skin tone improvement",
+            "Maintains skin's moisture balance",
+            "Creates rich, soft lather"
+        ],
+        "ingredients": "Niacinamide, Panthenol, Allantoin, Sodium Hyaluronate",
+        "howToUse": "Apply to wet face, massage gently, then rinse thoroughly. Use morning and/or night.",
+        "rating": 4.4
     },
     {
         "id": 24,
         "name": "Care:Nel Hyaluvita B5 Sun Repair Essence SPF50+ PA++++",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1741286139515",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1741286139515",
+            "https://example.com/product24-alt1.jpg"
+        ],
         "code": "KSB-P0528",
         "brand": "Care:Nel",
         "brandLink": "https://koreanshopbd.com/brand/carenel",
@@ -381,12 +732,27 @@ export const products = [
         "price": 1350,
         "originalPrice": 1500,
         "discount": 10,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Multi-functional sun essence with SPF50+ PA++++",
+            "Contains hyaluronic acid and panthenol for hydration",
+            "Lightweight essence-type sunscreen",
+            "Provides high protection against UVA/UVB rays",
+            "No white cast, suitable for daily use"
+        ],
+        "ingredients": "Hyaluronic Acid, Panthenol, Adenosine, Centella Asiatica Extract",
+        "howToUse": "Apply as last step of morning routine. Reapply every 2-3 hours when exposed to sun.",
+        "rating": 4.6
     },
     {
         "id": 25,
         "name": "Care:Nel Pomegranate Lip Night Mask",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1732556387412",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1732556387412",
+            "https://example.com/product25-alt1.jpg"
+        ],
         "code": "KSB-P0060",
         "brand": "Care:Nel",
         "brandLink": "https://koreanshopbd.com/brand/carenel",
@@ -398,12 +764,27 @@ export const products = [
         "price": 500,
         "originalPrice": 550,
         "discount": 9,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Overnight lip treatment with pomegranate extract",
+            "Intensely hydrates and repairs dry lips",
+            "Contains nourishing botanical oils",
+            "Light gel texture that doesn't feel heavy",
+            "Wake up to soft, supple lips"
+        ],
+        "ingredients": "Pomegranate Extract, Shea Butter, Jojoba Oil, Vitamin E",
+        "howToUse": "Apply generous amount to lips before bedtime. Can also be used during day.",
+        "rating": 4.5
     },
     {
         "id": 26,
         "name": "DABO All In One Black Snail Repair Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736543241693",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736543241693",
+            "https://example.com/product26-alt1.jpg"
+        ],
         "code": "KSB-P0295",
         "brand": "Dabo",
         "brandLink": "https://koreanshopbd.com/brand/dabo",
@@ -415,12 +796,27 @@ export const products = [
         "price": 1350,
         "originalPrice": 1500,
         "discount": 10,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Contains black snail mucin extract for repair",
+            "Improves skin elasticity and hydration",
+            "Helps fade acne marks and dark spots",
+            "Rich yet non-greasy texture",
+            "Suitable for all skin types"
+        ],
+        "ingredients": "Black Snail Secretion Filtrate, Niacinamide, Adenosine, Panthenol",
+        "howToUse": "Apply appropriate amount to face after serum. Use morning and night.",
+        "rating": 4.4
     },
     {
         "id": 27,
         "name": "DABO All in One Collagen Lifting Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736543424470",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736543424470",
+            "https://example.com/product27-alt1.jpg"
+        ],
         "code": "KSB-P0296",
         "brand": "Dabo",
         "brandLink": "https://koreanshopbd.com/brand/dabo",
@@ -432,12 +828,27 @@ export const products = [
         "price": 1350,
         "originalPrice": 1500,
         "discount": 10,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Collagen-enriched firming cream",
+            "Improves skin elasticity and firmness",
+            "Hydrates while providing lifting effect",
+            "Lightweight texture that absorbs quickly",
+            "Suitable for mature skin types"
+        ],
+        "ingredients": "Collagen, Adenosine, Niacinamide, Hyaluronic Acid",
+        "howToUse": "Apply to face and neck with upward motions. Use morning and night.",
+        "rating": 4.3
     },
     {
         "id": 28,
         "name": "DABO Royal Caviar Time Off Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736543729537",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736543729537",
+            "https://example.com/product28-alt1.jpg"
+        ],
         "code": "KSB-P0298",
         "brand": "Dabo",
         "brandLink": "https://koreanshopbd.com/brand/dabo",
@@ -449,12 +860,27 @@ export const products = [
         "price": 1350,
         "originalPrice": 1500,
         "discount": 10,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Anti-aging cream with caviar extract",
+            "Rich in nutrients for mature skin",
+            "Improves skin elasticity and firmness",
+            "Reduces appearance of fine lines",
+            "Luxurious texture that absorbs well"
+        ],
+        "ingredients": "Caviar Extract, Adenosine, Niacinamide, Peptides",
+        "howToUse": "Apply to face and neck after serum. Use morning and/or night.",
+        "rating": 4.5
     },
     {
         "id": 29,
         "name": "DABO Speed Whitening Ex Tone-Up Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736543826495",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736543826495",
+            "https://example.com/product29-alt1.jpg"
+        ],
         "code": "KSB-P0299",
         "brand": "Dabo",
         "brandLink": "https://koreanshopbd.com/brand/dabo",
@@ -466,12 +892,27 @@ export const products = [
         "price": 1350,
         "originalPrice": 1500,
         "discount": 10,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Brightening tone-up cream",
+            "Instantly evens out skin tone",
+            "Contains niacinamide for long-term brightening",
+            "Lightweight texture with natural coverage",
+            "Can be used as makeup base"
+        ],
+        "ingredients": "Niacinamide, Adenosine, Licorice Root Extract, Vitamin C",
+        "howToUse": "Apply after serum as last step of skincare or before makeup.",
+        "rating": 4.4
     },
     {
         "id": 30,
         "name": "DABO Waterful Aqua Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736543952102",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1736543952102",
+            "https://example.com/product30-alt1.jpg"
+        ],
         "code": "KSB-P0300",
         "brand": "Dabo",
         "brandLink": "https://koreanshopbd.com/brand/dabo",
@@ -483,29 +924,27 @@ export const products = [
         "price": 1350,
         "originalPrice": 1500,
         "discount": 10,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Intensely hydrating water cream",
+            "Contains 5 types of hyaluronic acid",
+            "Lightweight gel texture that absorbs quickly",
+            "Provides long-lasting hydration",
+            "Great for dehydrated skin types"
+        ],
+        "ingredients": "Hyaluronic Acid, Panthenol, Allantoin, Sodium Hyaluronate",
+        "howToUse": "Apply generous amount to face after serum. Use morning and night.",
+        "rating": 4.5
     },
-    {
-        "id": 31,
-        "name": "3W Clinic Intensive UV Sunblock Cream SPF50 PA+++",
-        "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1736536987958",
-        "code": "KSB-P0272",
-        "brand": "3W Clinic",
-        "brandLink": "https://koreanshopbd.com/brand/3w-clinic",
-        "origin": "KOREA",
-        "size": "70ml",
-        "category": "Sunscreen",
-        "categoryLink": "https://koreanshopbd.com/category/sunscreen",
-        "status": "In Stock",
-        "price": 500,
-        "originalPrice": 800,
-        "discount": 38,
-        "quantity": 1
-    },
-    {
+     {
         "id": 32,
         "name": "Cos De BAHA 2% Hydroquinone Serum + 3W Clinic Intensive UV Sunblock combo",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1744797666766",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1744797666766",
+            "https://example.com/product32-alt1.jpg"
+        ],
         "code": "KSB-P0668",
         "brand": "3W Clinic",
         "brandLink": "https://koreanshopbd.com/brand/3w-clinic",
@@ -517,12 +956,27 @@ export const products = [
         "price": 1499,
         "originalPrice": 2100,
         "discount": 29,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Special brightening combo set",
+            "Hydroquinone serum targets dark spots and hyperpigmentation",
+            "Sunblock provides essential UV protection during treatment",
+            "Complete regimen for skin brightening",
+            "Great value compared to buying separately"
+        ],
+        "ingredients": "Hydroquinone, Niacinamide, Titanium Dioxide, Zinc Oxide",
+        "howToUse": "Use serum at night after cleansing. Use sunscreen daily in morning routine.",
+        "rating": 4.6
     },
     {
         "id": 33,
         "name": "3W Clinic Intensive Dr.Kim Sun BB Cream",
         "image": "https://d3l8w3klt7yga2.cloudfront.net/products/1738068819109",
+        "images": [
+            "https://d3l8w3klt7yga2.cloudfront.net/products/1738068819109",
+            "https://example.com/product33-alt1.jpg"
+        ],
         "code": "KSB-P0396",
         "brand": "3W Clinic",
         "brandLink": "https://koreanshopbd.com/brand/3w-clinic",
@@ -534,6 +988,17 @@ export const products = [
         "price": 700,
         "originalPrice": 800,
         "discount": 13,
-        "quantity": 1
+        "quantity": 1,
+        "currency": "৳",
+        "description": [
+            "Multi-functional BB cream with SPF",
+            "Provides light to medium coverage",
+            "Contains sun protection and skincare benefits",
+            "Evens out skin tone while protecting from UV",
+            "Natural finish suitable for daily wear"
+        ],
+        "ingredients": "Titanium Dioxide, Niacinamide, Adenosine, Botanical Extracts",
+        "howToUse": "Apply after moisturizer as last step of morning routine. Can be used alone or under makeup.",
+        "rating": 4.2
     }
 ]

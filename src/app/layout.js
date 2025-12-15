@@ -1,7 +1,11 @@
+
 import { Inter, Playfair_Display } from 'next/font/google';
 import "./globals.css";
-import { Navbar } from '@/components/shared/Navbar/Navbar';
+
 import Footer from '@/components/shared/Footer/Footer';
+import { Navbar } from '@/components/shared/Navbar/Navbar';
+import { Toaster } from '@/components/ui/sonner';
+import { Providers } from '@/Providers/Providers';
 
 
 
@@ -24,9 +28,16 @@ export default function RootLayout({ children }) {
         className={`${playfair.variable} ${playfair.variable} antialiased`}
       >
         <div>
-          <Navbar />
-          {children}
+          {/* <ToastProvider> */}
+          <Providers>
+            <Navbar />
+
+            {children}
+          </Providers>
+
           <Footer />
+          {/* <Toaster /> */}
+          {/* </ToastProvider> */}
         </div>
       </body>
     </html>
