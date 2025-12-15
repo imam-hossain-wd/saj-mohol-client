@@ -1,85 +1,9 @@
-// 'use client';
 
-// import Link from 'next/link';
-// import { Heart, ShoppingCart } from 'lucide-react';
-// import NavMenuDrawer from './NavMenuDrawer';
-// import { cn } from '@/lib/utils';
-// import { SearchBox } from '../SearchBox/SearchBox';
-// import { products } from '@/data/products';
-// import BottomNavbar from './BottomNavbar';
-
-
-
-// export function Navbar() {
-//   return (
-//     <>
-//       {/* Desktop Navbar */}
-//       <header className={cn(
-//         'fixed top-0 z-50 w-full bg-white transition-all duration-300 bg-white/90 backdrop-blur-md shadow-sm',
-//       )}>
-//         <div className="container mx-auto px-4">
-//           <div className="flex h-16 items-center justify-between">
-
-//             {/* Left Side - Logo (30% width on mobile) */}
-//             <div className="flex items-center lg:w-auto lg:flex-1">
-//               <NavMenuDrawer />
-//               <Link href="/" className="flex items-center gap-2 group ml-5">
-//                 <span className="text-4xl font-serif font-bold text-primary relative">
-//                   S
-//                   <span className="absolute -bottom-1 right-0 w-3 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></span>
-//                 </span>
-//                 <div className="flex flex-col leading-tight">
-//                   <span className="text-xl font-serif font-medium text-gray-800">aj</span>
-//                   <span className="text-sm font-serif font-light text-gray-500 tracking-widest">Mohol</span>
-//                 </div>
-//               </Link>
-//             </div>
-
-//             {/* Center - Search Box (60% width on mobile, centered on desktop) */}
-//             <div className="w-[20%] lg:w-auto lg:flex-1 lg:max-w-2xl px-2 lg:px-4">
-//               <div className="w-full flex gap-2">
-//                 <SearchBox products={products} />
-//               </div>
-//             </div>
-
-
-
-//             {/* Right Side - Icons (hidden on mobile) */}
-//             <div className="lg:flex items-center justify-end flex-1 gap-4">
-//               <button className="p-2 text-gray-700 hover:text-primary transition-colors">
-//                 <Heart className="h-5 w-5" />
-//               </button>
-//               <button className="p-2 text-gray-700 hover:text-primary transition-colors relative">
-//                 <ShoppingCart className="h-5 w-5" />
-//                 <span className="absolute -top-1 -right-1 bg-primary text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-//                   0
-//                 </span>
-//               </button>
-//             </div>
-//           </div>
-//         </div>
-//       </header>
-
-//       {/* Mobile Bottom Navbar */}
-//       <BottomNavbar />
-//     </>
-//   );
-// }
-
-
-// components/navbar/navbar.jsx
 'use client';
 
 import Link from 'next/link';
 import { Heart, ShoppingCart, Search, Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
-// import { SearchBox } from '../SearchBox/SearchBox';
-// import BottomNavbar from './BottomNavbar';
-// import { DirectionModal } from '@/components/ui/direction-modal';
-// import { WishlistContent } from '@/components/wishlist/wishlist-content';
-// import { CartContent } from '@/components/cart/cart-content';
-// import { SearchModalContent } from '@/components/search/search-modal-content';
-// import { useApp } from '@/contexts/app-context';
 import { useState } from 'react';
 import { useAppContext } from '@/context/app-context';
 import { SearchBox } from '../SearchBox/SearchBox';
@@ -88,14 +12,16 @@ import { DirectionModal } from '../DirectionModal/DirectionModal';
 import { WishlistContent } from '../DirectionModal/WishlistContent';
 import { CartContent } from '../DirectionModal/CartContent';
 import { SearchModalContent } from '../SearchBox/search-modal-content';
+import { brandlogo } from '@/utils/assets';
+import Image from 'next/image';
 
 export function Navbar() {
-  const { 
-    toggleCart, 
-    toggleWishlist, 
-    toggleSearch, 
-    isCartOpen, 
-    isWishlistOpen, 
+  const {
+    toggleCart,
+    toggleWishlist,
+    toggleSearch,
+    isCartOpen,
+    isWishlistOpen,
     isSearchOpen,
     cartItemsCount,
     wishlistCount
@@ -115,7 +41,7 @@ export function Navbar() {
             {/* Left Side - Mobile Menu & Logo */}
             <div className="flex items-center flex-1 lg:flex-none">
               {/* Mobile Menu Button - Visible only on small devices */}
-              <button 
+              <button
                 onClick={() => setIsMobileMenuOpen(true)}
                 className="lg:hidden p-2 text-gray-700 hover:text-primary transition-colors"
               >
@@ -123,7 +49,7 @@ export function Navbar() {
               </button>
 
               {/* Logo */}
-              <Link href="/" className="flex items-center gap-2 group ml-2 lg:ml-0">
+              {/* <Link href="/" className="flex items-center gap-2 group ml-2 lg:ml-0">
                 <span className="text-4xl font-serif font-bold text-primary relative">
                   S
                   <span className="absolute -bottom-1 right-0 w-3 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></span>
@@ -132,7 +58,12 @@ export function Navbar() {
                   <span className="text-xl font-serif font-medium text-gray-800">aj</span>
                   <span className="text-sm font-serif font-light text-gray-500 tracking-widest">Mohol</span>
                 </div>
+              </Link> */}
+
+              <Link href="/" className="flex items-center gap-2 group">
+                <Image className='w-20 h-20' src={brandlogo.logo} width={100} height={100} quality={100} alt="saj mohol logo" />
               </Link>
+
             </div>
 
             {/* Center - Search Box - Hidden on mobile, visible on desktop */}
@@ -145,7 +76,7 @@ export function Navbar() {
             {/* Right Side - Icons */}
             <div className="flex items-center justify-end gap-4">
               {/* Search Button - Visible only on mobile */}
-              <button 
+              <button
                 onClick={toggleSearch}
                 className="lg:hidden p-2 text-gray-700 hover:text-primary transition-colors"
               >
@@ -153,7 +84,7 @@ export function Navbar() {
               </button>
 
               {/* Wishlist Button - Hidden on mobile (in bottom nav), visible on desktop */}
-              <button 
+              <button
                 onClick={toggleWishlist}
                 className="hidden lg:flex p-2 text-gray-700 hover:text-primary transition-colors relative"
               >
@@ -166,7 +97,7 @@ export function Navbar() {
               </button>
 
               {/* Cart Button - Hidden on mobile (in bottom nav), visible on desktop */}
-              <button 
+              <button
                 onClick={toggleCart}
                 className="hidden lg:flex p-2 text-gray-700 hover:text-primary transition-colors relative"
               >
@@ -269,7 +200,7 @@ function MobileMenuContent({ onClose }) {
           </Link>
         ))}
       </nav>
-      
+
       <div className="mt-8 pt-6 border-t">
         <h3 className="text-sm font-semibold text-gray-500 uppercase mb-4">Account</h3>
         <div className="space-y-1">
